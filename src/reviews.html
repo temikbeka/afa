@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Отзывы | Дизайнерская студия</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html">Дизайнерская студия</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+        <li class="nav-item"><a class="nav-link" href="services.html">Услуги</a></li>
+        <li class="nav-item"><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+        <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+        <li class="nav-item"><a class="nav-link active" href="reviews.html">Отзывы</a></li>
+        <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<section class="hero-sm">
+  <div>
+    <h1>Отзывы</h1>
+    <p>Что говорят о нас клиенты</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <div id="reviewsCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active text-center">
+          <p class="fs-5">«Интерьер превзошёл все ожидания!»</p>
+          <h6>— Анастасия К.</h6>
+        </div>
+        <div class="carousel-item text-center">
+          <p class="fs-5">«Ландшафтный дизайн просто вау!»</p>
+          <h6>— Дмитрий Л.</h6>
+        </div>
+        <div class="carousel-item text-center">
+          <p class="fs-5">«Профессионализм на высоте!»</p>
+          <h6>— Ольга П.</h6>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#reviewsCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  document.addEventListener('DOMContentLoaded', () => document.body.classList.add('loaded'));
+</script>
+</body>
+</html>

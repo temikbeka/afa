@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Услуги | Дизайнерская студия</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">Дизайнерская студия</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                <li class="nav-item"><a class="nav-link active" href="services.html">Услуги</a></li>
+                <li class="nav-item"><a class="nav-link" href="portfolio.html">Портфолио</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                <li class="nav-item"><a class="nav-link" href="reviews.html">Отзывы</a></li>
+                <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<section class="hero-sm">
+    <div>
+        <h1>Наши услуги</h1>
+        <p>Комплексные решения для вашего пространства</p>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container">
+        <h2 class="section-title">Детальный список услуг</h2>
+        <div class="row g-4">
+            <!-- Услуга 1 -->
+            <div class="col-md-4">
+                <div class="card card-hover h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Дизайн интерьера</h5>
+                        <p>Концепция, чертежи, выбор материалов и мебели, 3D-визуализация.</p>
+                        <p><strong>от 25 000 тнг/м²</strong></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Услуга 2 -->
+            <div class="col-md-4">
+                <div class="card card-hover h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Ландшафтный дизайн</h5>
+                        <p>Проектирование зон отдыха, озеленение, системы полива.</p>
+                        <p><strong>от 20 000 тнг/м²</strong></p>
+                    </div>
+                </div>
+            </div>
+            <!-- Услуга 3 -->
+            <div class="col-md-4">
+                <div class="card card-hover h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Авторский надзор</h5>
+                        <p>Контроль исполнения, взаимодействие с подрядчиками, корректировки.</p>
+                        <p><strong>от 75 000 тнг/мес</strong></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQ -->
+        <h2 class="section-title mt-5">Частые вопросы</h2>
+        <div class="accordion" id="faq">
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q1">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#c1">
+                        Сколько занимает проект?
+                    </button>
+                </h2>
+                <div id="c1" class="accordion-collapse collapse show" data-bs-parent="#faq">
+                    <div class="accordion-body">Обычно 2–4 недели, зависит от объёма и сложности.</div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="q2">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#c2">
+                        Можно ли заказать только визуализацию?
+                    </button>
+                </h2>
+                <div id="c2" class="accordion-collapse collapse" data-bs-parent="#faq">
+                    <div class="accordion-body">Да, можно оформить услугу 3D-визуализации отдельно.</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', () => document.body.classList.add('loaded'));
+</script>
+</body>
+</html>
